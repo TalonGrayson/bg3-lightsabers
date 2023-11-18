@@ -1,0 +1,5 @@
+new entry "TLN_KAIBER_GLOW_LIGHT"
+type "StatusData"
+data "StatusType" "BOOST"
+using "MAG_FARLIN_DAGGER_LIGHT_TECHNICAL"
+data "StackId" "TLN_KAIBER_GLOW_LIGHT"
