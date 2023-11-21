@@ -16,6 +16,6 @@ I wanted a way augment my sithy durge character to give him some more 'force-use
 - Balance "Versatile" rolls
 
 ### Long term goals:
-- Some sort of scaling on the weapon so it can be carried through an entire campaing
+- Some sort of scaling on the weapon so it can be carried through an entire campaign
 - Some way of changing the blade colour
 - A Force user class... eventually
