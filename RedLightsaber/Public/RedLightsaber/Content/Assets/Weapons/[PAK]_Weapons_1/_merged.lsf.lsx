@@ -22,9 +22,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/Curotar_HUM_Frostmourne_Mesh.Dummy_Curotar_HUM_Frostmourne.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_RedLightsaber.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209007" />
 					<children>
 						<node id="AnimationWaterfall">
@@ -35,7 +35,7 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="990f0e0b-7662-4591-a17d-2ec4184e12a1" />
-							<attribute id="ObjectID" type="FixedString" value="WPN_TLN_Lightsaber_Mesh.WPN_TLN_Lightsaber_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_Lightsaber_Mesh.TLN_Lightsaber_Mesh.0" />
 						</node>
 					</children>
 				</node>
