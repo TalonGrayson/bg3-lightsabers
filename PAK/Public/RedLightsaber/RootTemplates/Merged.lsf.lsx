@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1" /> <!-- CHANGE THIS: 'handle' should be the name's 'contentuid' in the localisation file -->
+					<attribute id="Description" type="TranslatedString" handle="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1" /> <!-- CHANGE THIS: 'handle' should be the description's 'contentuid' in the localisation file -->
+					<attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" /> <!-- CHANGE THIS: 'value' should be the UUID of the base item -->
+					<attribute id="Flag" type="int64" value="0" />
+					<attribute id="Icon" type="FixedString" value="Icons_TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the name of the base item -->
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int64" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" /> <!-- CHANGE THIS: 'value' should be a UUID generated in Multi-Tool -->
+					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
+					<attribute id="ParentTemplateId" type="FixedString" value="c68026c8-8af9-4a05-b77a-246a01bafe61" /> <!-- CHANGE THIS: 'value' should be the UUID of the parent template -->
+					<attribute id="PhysicsTemplate" type="FixedString" value="ed38fffa-52ba-686f-c008-11bf93d0e793" /> <!-- CHANGE THIS: 'value' should be the UUID of the physics template -->
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="6867c7b1-5423-44dd-a65f-6be38143d97b" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TLN_SABER_LIGHT_MAINHAND" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="TLN_SABER_LIGHT_OFFHAND" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int64" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
