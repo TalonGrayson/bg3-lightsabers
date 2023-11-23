@@ -75,6 +75,11 @@
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
 						<node id="Texture2DParameters">
 							<!-- GM? -->
 							<attribute id="Enabled" type="bool" value="True" />
