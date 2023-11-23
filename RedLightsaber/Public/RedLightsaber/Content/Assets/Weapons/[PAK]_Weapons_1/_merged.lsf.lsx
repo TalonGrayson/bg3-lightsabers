@@ -72,25 +72,9 @@
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_BASE_GM.lsf" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
-						<node id="ScalarParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="SeeThroughEnabled" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
-						</node>
-						<node id="ScalarParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="GlowMultiplier" />
-						</node>
-						<node id="Vector3Parameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
-						</node>
 						<node id="Texture2DParameters">
 							<!-- GM? -->
 							<attribute id="Enabled" type="bool" value="True" />
