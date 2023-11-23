@@ -88,10 +88,10 @@
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
-							<attribute id="Value" type="fvec3" value="0 1 0" />
+							<attribute id="Value" type="fvec3" value="1 0 0" />
 						</node>
 						<node id="Texture2DParameters">
-							<!-- GM? -->
+							<!-- GM -->
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
