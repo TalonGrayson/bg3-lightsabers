@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<!-- NAME: -->
+	<!-- WEAPON NAME: -->
 	<content contentuid="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1">Red Lightsaber</content>
-	<!-- DESCRIPTION: -->
+	<!-- WEAPON DESCRIPTION: -->
 	<content contentuid="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age.</content>
+
+	<!-- KAIBER LIGHT BOOSTS -->
+	<content contentuid="ha7047837g651cg4efeg8770g352717f98287" version="1">Saber Glow (Main Hand)</content>
+	<content contentuid="h76ad4894g571bg41fagab0fg48cd814c90ce" version="1">Saber Glow (Off Hand)</content>
+	<content contentuid="h7d3da766g1f94g472cg9bf6gcf2b66d59bf3" version="1">Kaiber Glow (Main Hand)</content>
+	<content contentuid="hd6a4c7d1gf4ecg4b42g8359g5686af140555" version="1">Kaiber Glow (Off Hand)</content>
+
+
+	<content contentuid="h3477e2fagb2b3g4e55gb65cg84b4ad2dbfab" version="1">Saber Deflection</content>
+	<content contentuid="h42c20377gdbefg4d43g8233g41dc56cf78ef" version="1">Your training and connection with the force have gifted you with the reaction speeds needed to deflect projectiles, even with the blast shield down.</content>
 
 	<content contentuid="h83ea3d1bg0100g409egbf70ge97a98835799" version="1">Kaiber Glow</content>
 	<content contentuid="h5c4690cdgddacg425cg8121ga9752f7a255d" version="1">The crystal in the hilt of this saber causes it to emit a glow in a radius of 1m.</content>
