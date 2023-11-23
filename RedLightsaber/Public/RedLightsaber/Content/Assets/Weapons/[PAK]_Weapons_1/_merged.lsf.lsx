@@ -80,6 +80,16 @@
 							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
 							<attribute id="Value" type="float" value="0" />
 						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="10" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="0 1 0" />
+						</node>
 						<node id="Texture2DParameters">
 							<!-- GM? -->
 							<attribute id="Enabled" type="bool" value="True" />
