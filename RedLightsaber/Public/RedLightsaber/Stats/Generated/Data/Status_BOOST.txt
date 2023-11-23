@@ -10,7 +10,7 @@ data "IsUnique" "1"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_Light"d
 data "ApplyEffect" ""
-data "StatusEffect" "9e863d8f-a1f5-4f68-88ca-ddb56828c8d8"
+data "StatusEffect" ""
 data "OnApplyFunctors" "RemoveStatus(TLN_KAIBER_LIGHT_REMOVER_MAINHAND)"
 
 new entry "TLN_KAIBER_LIGHT_OFFHAND"
@@ -25,7 +25,7 @@ data "IsUnique" "1"
 data "StatusPropertyFlags" "IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_Light"
 data "ApplyEffect" ""
-data "StatusEffect" "c31575d5-a204-4dea-b098-865178a26143"
+data "StatusEffect" ""
 data "OnApplyFunctors" "RemoveStatus(TLN_KAIBER_LIGHT_REMOVER_OFFHAND)"
 
 new entry "TLN_KAIBER_LIGHT_REMOVER_MAINHAND"
