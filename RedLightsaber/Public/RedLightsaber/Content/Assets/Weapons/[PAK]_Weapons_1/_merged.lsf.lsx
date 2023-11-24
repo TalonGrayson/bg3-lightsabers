@@ -28,6 +28,10 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_RedLightsaber.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
 					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="1ed23605-aea2-291c-6d68-2d3ab5075747" />
+						</node>
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
@@ -73,6 +77,8 @@
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
+					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
 						<node id="ScalarParameters">
@@ -83,12 +89,12 @@
 						<node id="ScalarParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
-							<attribute id="Value" type="float" value="10" />
+							<attribute id="Value" type="float" value="20" />
 						</node>
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
-							<attribute id="Value" type="fvec3" value="1 0 0" />
+							<attribute id="Value" type="fvec3" value="0 .5 0.1" />
 						</node>
 						<node id="Texture2DParameters">
 							<!-- GM -->
