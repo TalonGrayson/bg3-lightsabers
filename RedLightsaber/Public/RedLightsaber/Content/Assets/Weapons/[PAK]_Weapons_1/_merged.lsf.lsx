@@ -30,7 +30,7 @@
 					<children>
 						<node id="Attachments">
 							<attribute id="Name" type="FixedString" value="Dummy_FX" />
-							<attribute id="UUID" type="FixedString" value="1ed23605-aea2-291c-6d68-2d3ab5075747" />
+							<attribute id="UUID" type="FixedString" value="0f1ea853-23bb-d752-c038-302ddb03b6df" />
 						</node>
 						<node id="Base" />
 						<node id="Objects">
@@ -94,7 +94,7 @@
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
-							<attribute id="Value" type="fvec3" value="0 .5 0.1" />
+							<attribute id="Value" type="fvec3" value="0.4 0 1" />
 						</node>
 						<node id="Texture2DParameters">
 							<!-- GM -->
