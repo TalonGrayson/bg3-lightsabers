@@ -5,6 +5,11 @@
 		<node id="VisualBank">
 			<children>
 				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter (broken - hilt?) -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
@@ -25,25 +30,60 @@
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_RedLightsaber.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
 					<children>
 						<node id="Attachments">
-							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Emitter" />
 							<attribute id="UUID" type="FixedString" value="0f1ea853-23bb-d752-c038-302ddb03b6df" />
 						</node>
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_RedLightsaber_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.Balls.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_RedLightsaber_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.ClipScrews.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.T-Ribs.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_RedLightsaber_Mesh_LOD1.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Button_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Emitter_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="0ba294db-32a3-4bce-b3c8-b315e1471ce2" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -77,8 +117,6 @@
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
-					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
-					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
 						<node id="ScalarParameters">
@@ -94,7 +132,7 @@
 						<node id="Vector3Parameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
-							<attribute id="Value" type="fvec3" value="0.4 0 1" />
+							<attribute id="Value" type="fvec3" value="1 0 0" />
 						</node>
 						<node id="Texture2DParameters">
 							<!-- GM -->
@@ -237,11 +275,11 @@
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_RedLightsaber_GM" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaber_GM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/WPN_TLN_Lightsaber_GM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/VaderSaber_GM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_RedLightsaber_GM" />
+					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_GM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
@@ -284,20 +322,6 @@
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/WPN_TLN_Lightsaber_PM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TLN_RedLightsaber_PM" />
-					<attribute id="Type" type="int32" value="1" />
-					<attribute id="Width" type="int32" value="2048" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
-				</node>
-				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
-					<attribute id="Height" type="int32" value="1024" />
-					<attribute id="ID" type="FixedString" value="a90992f1-5dbf-9893-dba2-35386614d20d" />
-					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_RedLightsaber_MSK" />
-					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/WPN_TLN_Lightsaber_MSK.dds" />
-					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_RedLightsaber_MSK" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
