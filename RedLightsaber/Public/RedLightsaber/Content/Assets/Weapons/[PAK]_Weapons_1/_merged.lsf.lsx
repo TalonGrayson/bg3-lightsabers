@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<!-- Bones: -->
 					<!-- Dummy_FX_Hilt for hilt -->
-					<!-- Dummy_FX_Emitter for emitter (broken - hilt?) -->
+					<!-- Dummy_FX_Emitter for emitter -->
 					<!-- Dummy_FX_BladeTip for blade tip -->
 					<!-- Dummy_FX_Pommel for pommel -->
 					<attribute id="AttachBone" type="FixedString" value="" />
@@ -40,21 +40,21 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.Balls.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.ClipScrews.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.T-Ribs.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
@@ -62,27 +62,27 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_RedLightsaber_Mesh_LOD1.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Button_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Emitter_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
@@ -111,11 +111,12 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+				<!-- Red Blade Material -->
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Blade" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
@@ -134,138 +135,77 @@
 							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
 							<attribute id="Value" type="fvec3" value="1 0 0" />
 						</node>
+						<!-- GM -->
 						<node id="Texture2DParameters">
-							<!-- GM -->
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
 						</node>
+						<!-- Silver BM -->
 						<node id="Texture2DParameters">
-							<!-- NM -->
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="0Textures" />
-							<attribute id="ID" type="FixedString" value="581ab316-4604-44fe-8bf6-093e155b2395" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
-							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_normalmap_DefaultWrapSampler" />
-							<children>
-								<node id="SkinnedDeferred">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="SkinnedForward">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticBake">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticDeferred">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticForward">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticInstancedDeferred">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="2" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticInstancedForward">
-									<attribute id="DxPsIndex" type="int8" value="0" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="1" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-							</children>
-						</node>
-						<node id="Texture2DParameters">
-							<!-- MSK -->
-							<attribute id="Enabled" type="bool" value="False" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="" />
-							<attribute id="ID" type="FixedString" value="a90992f1-5dbf-9893-dba2-35386614d20d" />
-							<attribute id="IgnoreTexelDensity" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="" />
-						</node>
-						<node id="Texture2DParameters">
-							<!-- Black BM -->
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
-						</node>
-						<node id="Texture2DParameters">
-							<!-- Silver BM -->
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
 						</node>
+					</children>
+				</node>
+
+				<!-- Silver Hilt Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<!-- Silver BM -->
 						<node id="Texture2DParameters">
-							<!-- PM -->
 							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ExportAsPreset" type="bool" value="True" />
-							<attribute id="GroupName" type="FixedString" value="0Textures" />
-							<attribute id="ID" type="FixedString" value="43dcde39-82ff-4f12-bd20-29a7860d6a03" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
+						</node>
+
+						<!-- Silver NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ID" type="FixedString" value="eabb05de-195c-4c7a-99af-5fe09681690d" />
+						</node>
+
+						<!-- Silver PM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
-							<attribute id="UniformName" type="FixedString" value="Texture2DParameter_physicalmap_DefaultWrapSampler" />
-							<children>
-								<node id="SkinnedDeferred">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="SkinnedForward">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticBake">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticDeferred">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticForward">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticInstancedDeferred">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="6" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-								<node id="StaticInstancedForward">
-									<attribute id="DxPsIndex" type="int8" value="4" />
-									<attribute id="DxVsIndex" type="int8" value="-1" />
-									<attribute id="VkBindingIndex" type="int8" value="5" />
-									<attribute id="VkDescriptorSet" type="int8" value="1" />
-								</node>
-							</children>
+							<attribute id="ID" type="FixedString" value="8d4f9878-6bc2-4d78-a80c-3a00d7727c73" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Black Hilt Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<!-- Black BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
+						</node>
+						
+						<!-- Black NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ID" type="FixedString" value="4e0adca5-e9bb-472c-9d16-ab9d3ca75e7b" />
+						</node>
+
+						<!-- Black BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+							<attribute id="ID" type="FixedString" value="21ce7168-f183-4d0e-b2de-cec497c97d33" />
 						</node>
 					</children>
 				</node>
@@ -276,6 +216,7 @@
 	<region id="TextureBank">
 		<node id="TextureBank">
 			<children>
+				<!-- Glow Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
@@ -290,14 +231,15 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
-				<!-- Black -->
+
+				<!-- Black Base Color -->
 				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Depth" type="int32" value="0" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black_BM" />
-					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Black/VaderSaber_Black_BM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Black_BM" />
@@ -305,6 +247,8 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
+
+				<!-- Black Normal Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
@@ -319,6 +263,8 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
+
+				<!-- Black Physical Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
@@ -333,14 +279,15 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
-				<!-- Silver -->
+
+				<!-- Silver Base Color -->
 				<node id="Resource">
-					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Depth" type="int32" value="0" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
 					<attribute id="Localized" type="bool" value="False" />
 					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver_BM" />
-					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Silver/VaderSaber_Silver_BM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Silver_BM" />
@@ -348,6 +295,8 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
+
+				<!-- Silver Normal Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
@@ -362,6 +311,8 @@
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
+
+				<!-- Silver Physical Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
