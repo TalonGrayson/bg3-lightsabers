@@ -8,6 +8,7 @@
 					<!-- Bones: -->
 					<!-- Dummy_FX_Hilt for hilt -->
 					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
 					<!-- Dummy_FX_BladeTip for blade tip -->
 					<!-- Dummy_FX_Pommel for pommel -->
 					<attribute id="AttachBone" type="FixedString" value="" />
@@ -34,7 +35,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
 					<children>
 						<node id="Attachments">
-							<attribute id="Name" type="FixedString" value="Dummy_FX_Emitter" />
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
 							<attribute id="UUID" type="FixedString" value="0f1ea853-23bb-d752-c038-302ddb03b6df" />
 						</node>
 						<node id="Base" />
