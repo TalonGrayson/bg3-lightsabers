@@ -384,6 +384,9 @@ UnpackedData\Shared\Public\Shared\Content\Assets\Loot\[PAK]_Alchemy\_merged.lsf.
 Good search param:
 <attribute id="EffectName" type="FixedString" value="VFX_LightSources_GEN_Gem_Glowing
 
+Purple: 0f1ea853-23bb-d752-c038-302ddb03b6df
+
+
 Example:
 <?xml version="1.0" encoding="utf-8"?>
 <save>
