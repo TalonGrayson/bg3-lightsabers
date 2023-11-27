@@ -375,3 +375,34 @@ data "Icon" "Status_Invisible"
 data "StackId" "MAG_INVISIBLE_WEAPON_BUFF"
 data "StatusPropertyFlags" "IgnoreResting"
 data "StatusEffect" "d26436d4-d019-4dfc-b2f1-da0ac195575f"
+
+
+ILLUMINATION:
+UnpackedData\Shared\Public\Shared\Content\Assets\Effects\Effects\[PAK]_LightSources\_merged.lsf.lsx
+UnpackedData\Shared\Public\Shared\Content\Assets\Loot\[PAK]_Alchemy\_merged.lsf.lsx
+
+Good search param:
+<attribute id="EffectName" type="FixedString" value="VFX_LightSources_GEN_Gem_Glowing
+
+Purple: 0f1ea853-23bb-d752-c038-302ddb03b6df
+
+
+Example:
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="1ed23605-aea2-291c-6d68-2d3ab5075747" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
