@@ -386,7 +386,6 @@ Good search param:
 
 Purple: 0f1ea853-23bb-d752-c038-302ddb03b6df
 
-
 Example:
 <?xml version="1.0" encoding="utf-8"?>
 <save>
@@ -406,3 +405,95 @@ Example:
 		</node>
 	</region>
 </save>
+
+Under the hood:
+				<node id="Resource">
+					<attribute id="BoundsMax" type="fvec3" value="1 1 1" />
+					<attribute id="BoundsMin" type="fvec3" value="-1 -1 -1" />
+					<attribute id="Center" type="fvec3" value="0 0 0" />
+					<attribute id="CullingDistance" type="float" value="30" />
+					<attribute id="Duration" type="float" value="0.6" />
+					<attribute id="EffectName" type="FixedString" value="VFX_LightSources_GEN_Gem_Glowing_C_01_Purple" />
+					<attribute id="ID" type="FixedString" value="0f1ea853-23bb-d752-c038-302ddb03b6df" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="InterruptionMode" type="uint32" value="0" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="VFX_LightSources_GEN_Gem_Glowing_C_01_Purple" />
+					<attribute id="Radius" type="float" value="1" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_LightSources_GEN_Gem_Glowing_C_01_Purple.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+					<children>
+						<node id="Dependencies">
+							<children>
+								<node id="DependentResource">
+									<attribute id="Object" type="FixedString" value="a51c5bbb-a2f4-4ea9-80b3-e05d43f92d62" />
+								</node>
+							</children>
+						</node>
+						<node id="EffectComponents">
+							<attribute id="EndTime" type="float" value="0" />
+							<attribute id="ID" type="guid" value="dcd3afa6-9791-4e65-a852-d56524d60239" />
+							<attribute id="Name" type="LSString" value="Light" />
+							<attribute id="StartTime" type="float" value="0" />
+							<attribute id="Track" type="uint32" value="0" />
+							<children>
+								<node id="Modules">
+									<children>
+										<node id="Module">
+											<attribute id="Name" type="LSString" value="Position" />
+											<children>
+												<node id="FullName">
+													<attribute id="Object" type="FixedString" value="Offset" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Properties">
+									<children>
+										<node id="Property">
+											<attribute id="AttributeName" type="FixedString" value="Position" />
+											<attribute id="FullName" type="FixedString" value="Offset" />
+											<attribute id="Input" type="FixedString" value="" />
+											<attribute id="Type" type="uint8" value="8" />
+											<attribute id="Value" type="fvec3" value="0 0 0" />
+											<children>
+												<node id="Parameter">
+													<attribute id="Name" type="LSString" value="X" />
+													<attribute id="Value" type="float" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="Name" type="LSString" value="Y" />
+													<attribute id="Value" type="float" value="0" />
+												</node>
+												<node id="Parameter">
+													<attribute id="Name" type="LSString" value="Z" />
+													<attribute id="Value" type="float" value="0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+
+				<node id="GameObjects">
+					<attribute id="Color" type="fvec3" value="0.5019608 0.2705882 1" />
+					<attribute id="Enabled" type="bool" value="True" />
+					<attribute id="FlatFalloff" type="bool" value="False" />
+					<attribute id="Gain" type="float" value="0.15" />
+					<attribute id="Intensity" type="float" value="9000" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="a51c5bbb-a2f4-4ea9-80b3-e05d43f92d62" />
+					<attribute id="Name" type="LSString" value="LightSources_Gems_Glowing_Purple" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e3e0854f-75c2-4771-bf14-58d35cd9f2dc" />
+					<attribute id="PreExpose" type="bool" value="True" />
+					<attribute id="Radius" type="float" value="5" />
+					<attribute id="Type" type="FixedString" value="light" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274312" />
+				</node>
