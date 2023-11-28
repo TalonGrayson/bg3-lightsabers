@@ -26,7 +26,7 @@
 					<!-- Anakin's Lightsaber: df2be5e8-bd18-47c1-9472-ddb23dcd50dd -->
 					<!-- Luke's Lightsaber: d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e -->
 					<!-- Vader's Lightsaber: 6867c7b1-5423-44dd-a65f-6be38143d97b -->
-					<attribute id="VisualTemplate" type="FixedString" value="df2be5e8-bd18-47c1-9472-ddb23dcd50dd" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
+					<attribute id="VisualTemplate" type="FixedString" value="d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
