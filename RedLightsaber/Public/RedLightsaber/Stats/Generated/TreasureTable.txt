@@ -1,7 +1,19 @@
 new treasuretable "TUT_Chest_Potions"
 CanMerge 1
 new subtable "1,1"
-object category "I_TLN_RedLightsaber",1,0,0,0,0,0,0,0
+object category "I_TLN_Kyber_Crystal_GREEN",1,0,0,0,0,0,0,0
 CanMerge 1
 new subtable "1,1"
-object category "I_TLN_RedLightsaber",1,0,0,0,0,0,0,0
+object category "I_TLN_Kyber_Crystal_RED",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_TLN_LukeLightsaber_Hilt",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_TLN_Lightsaber",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_TLN_Lightsaber_Luke",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_TLN_Lightsaber_Vader",1,0,0,0,0,0,0,0

@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentList>
-	<!-- WEAPON NAME: -->
-	<content contentuid="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1">Red Lightsaber</content>
-	<!-- WEAPON DESCRIPTION: -->
+	<content contentuid="hc69c0e62g2b7cg4e0cgb6bagd45658f2c0ac" version="1">Lightsaber</content>
 	<content contentuid="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age.</content>
+	<content contentuid="h75f7215cg0b91g4918g9843g49036369caa8" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age. Wielding it feels like reality is fracturing into some kind of expanded universe. You have a bad feeling about it.</content>
 
-	<!-- KAIBER LIGHT BOOSTS -->
+	<content contentuid="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1">Darth Vader's Lightsaber</content>
+	<content contentuid="hd5e78343g8aa1g4c24ga0d0g23727e20bd8a" version="1">Luke Skywalker's Lightsaber</content>
+	<content contentuid="h208fafd3g3737g45adgab0ag37b1da1e866d" version="1">Luke Skywalker's Lightsaber Hilt</content>
+	<content contentuid="h1fc199e5gd804g4fe1ga0c7g166a68de9dc1" version="1">Troubled Lightsaber</content>
+
+	<!-- KYBER LIGHT BOOSTS -->
+	<content contentuid="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1">Kyber Crystal (Green)</content>
+	<content contentuid="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1">Kyber Crystal (Red)</content>
+	<content contentuid="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1">The crystal resonates with you, as if bound to you through some mystical force. The weave, perhaps? It feels... different.</content>
+
 	<content contentuid="ha7047837g651cg4efeg8770g352717f98287" version="1">Saber Glow (Main Hand)</content>
 	<content contentuid="h76ad4894g571bg41fagab0fg48cd814c90ce" version="1">Saber Glow (Off Hand)</content>
-	<content contentuid="h7d3da766g1f94g472cg9bf6gcf2b66d59bf3" version="1">Kaiber Glow (Main Hand)</content>
-	<content contentuid="hd6a4c7d1gf4ecg4b42g8359g5686af140555" version="1">Kaiber Glow (Off Hand)</content>
+	<content contentuid="h7d3da766g1f94g472cg9bf6gcf2b66d59bf3" version="1">Kyber Glow (Main Hand)</content>
+	<content contentuid="hd6a4c7d1gf4ecg4b42g8359g5686af140555" version="1">Kyber Glow (Off Hand)</content>
 
 
 	<content contentuid="h3477e2fagb2b3g4e55gb65cg84b4ad2dbfab" version="1">Saber Deflection</content>
 	<content contentuid="h42c20377gdbefg4d43g8233g41dc56cf78ef" version="1">Your training and connection with the force have gifted you with the reaction speeds needed to deflect projectiles, even with the blast shield down.</content>
 
-	<content contentuid="h83ea3d1bg0100g409egbf70ge97a98835799" version="1">Kaiber Glow</content>
+	<content contentuid="h83ea3d1bg0100g409egbf70ge97a98835799" version="1">Kyber Glow</content>
 	<content contentuid="h5c4690cdgddacg425cg8121ga9752f7a255d" version="1">The crystal in the hilt of this saber causes it to emit a glow in a radius of 1m.</content>
 	<content contentuid="h5fbca840g8ad4g41a9g84dbg808d4c3cdc9e" version="1">Sheathe your blade if you want to lurk in the shadows.</content>
 

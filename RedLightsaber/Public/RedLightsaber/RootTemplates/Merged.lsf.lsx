@@ -4,9 +4,10 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
+				<!-- Base Lightsaber -->
 				<node id="GameObjects">
 					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1" /> <!-- CHANGE THIS: 'handle' should be the name's 'contentuid' in the localisation file -->
+					<attribute id="DisplayName" type="TranslatedString" handle="hc69c0e62g2b7cg4e0cgb6bagd45658f2c0ac" version="1" /> <!-- CHANGE THIS: 'handle' should be the name's 'contentuid' in the localisation file -->
 					<attribute id="Description" type="TranslatedString" handle="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1" /> <!-- CHANGE THIS: 'handle' should be the description's 'contentuid' in the localisation file -->
 					<attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" /> <!-- CHANGE THIS: 'value' should be the UUID of the base item -->
 					<attribute id="Flag" type="int64" value="0" />
@@ -15,18 +16,15 @@
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int64" value="-1" />
 					<attribute id="MapKey" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" /> <!-- CHANGE THIS: 'value' should be a UUID generated in Multi-Tool -->
-					<attribute id="Name" type="LSString" value="TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
 					<attribute id="ParentTemplateId" type="FixedString" value="c68026c8-8af9-4a05-b77a-246a01bafe61" /> <!-- CHANGE THIS: 'value' should be the UUID of the parent template -->
 					<attribute id="PhysicsTemplate" type="FixedString" value="ed38fffa-52ba-686f-c008-11bf93d0e793" /> <!-- CHANGE THIS: 'value' should be the UUID of the physics template -->
 					<attribute id="Race" type="int8" value="0" />
 					<attribute id="ReadinessFlags" type="uint32" value="144" />
-					<attribute id="Stats" type="FixedString" value="TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
+					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
 					<attribute id="Tooltip" type="uint8" value="2" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<!-- Anakin's Lightsaber: df2be5e8-bd18-47c1-9472-ddb23dcd50dd -->
-					<!-- Luke's Lightsaber: d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e -->
-					<!-- Vader's Lightsaber: 6867c7b1-5423-44dd-a65f-6be38143d97b -->
-					<attribute id="VisualTemplate" type="FixedString" value="d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
+					<attribute id="VisualTemplate" type="FixedString" value="fac77aec-16dd-4241-b65a-b8dc9bec262e" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
@@ -48,6 +46,211 @@
 							<children>
 								<node id="InventoryItem">
 									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Luke Skywalker's Lightsaber Hilt -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="a2bfd734-2254-440d-a35a-54bc84d7a204" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_LukeLightsaber_Hilt" />
+					<attribute id="Stats" type="FixedString" value="TLN_LukeLightsaber_Hilt" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h208fafd3g3737g45adgab0ag37b1da1e866d" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="41350095-c750-462f-8f54-7c200a04c19f" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				
+				<!-- Luke Skywalker's Lightsaber GREEN -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="b4f9b552-b5e8-4861-b261-6707345e3e7a" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Luke" />
+					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber_Luke" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd5e78343g8aa1g4c24ga0d0g23727e20bd8a" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e" />
+				</node>
+				
+				<!-- Luke Skywalker's Lightsaber RED -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="c20c2d68-5a37-468a-b762-eec3f72a498f" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Luke_Red" />
+					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber_Luke_Red" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h1fc199e5gd804g4fe1ga0c7g166a68de9dc1" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h75f7215cg0b91g4918g9843g49036369caa8" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="92ffb282-4412-4c99-b2b4-3c69a715e278" />
+				</node>
+
+				<!-- Darth Vader's Lightsaber -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="d194312c-f24e-4fc5-a287-05b7a8cb2f4e" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Vader" />
+					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber_Vader" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="6867c7b1-5423-44dd-a65f-6be38143d97b" />
+				</node>
+
+				<!-- Green Kyber Crystal -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="c181dbab-5605-47a2-aeb4-a18fcbe34111" />
+					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_GREEN" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ab392201-5504-6184-17b4-4e5285d6e5a5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="061fa8b2-ac23-2eae-3002-dd1d15a2f67f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_Laculite_A" />
+					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_GREEN" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="13" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h309a6d46g0be0g483bgae9egfd6e7d3dcc7f" version="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Red Kyber Crystal -->
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="657de51e-ec0c-416e-8933-1f33c0e6c164" />
+					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_RED" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="VisualTemplate" type="FixedString" value="ab392201-5504-6184-17b4-4e5285d6e5a5" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="061fa8b2-ac23-2eae-3002-dd1d15a2f67f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_C" />
+					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_RED" />
+					<attribute id="maxStackAmount" type="int32" value="100" />
+					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.08320723 -0.001015164 -0.1272585" />
+									<attribute id="Max" type="fvec3" value="0.08320725 0.07413554 0.1272585" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Height" type="float" value="1" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSection" type="int32" value="13" />
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h309a6d46g0be0g483bgae9egfd6e7d3dcc7f" version="1" />
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
 								</node>
 							</children>
 						</node>

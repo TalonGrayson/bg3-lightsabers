@@ -13,7 +13,61 @@
 	<region id="VisualBank">
 		<node id="VisualBank">
 			<children>
-				<!-- Anakin's Hilt -->
+				<!-- Base Lightsaber -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber" />
+					<attribute id="ID" type="FixedString" value="0cbb3528-9bec-4258-a4e8-dd2a4dbf20ee" />
+					
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="a2728e07-eaa3-4dd2-a513-1652122dd9b0" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="3e47a90c-0235-4b02-827e-2e816bb60d2c" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Anakin's Lightsaber -->
 				<node id="Resource">
 					<!-- Bones: -->
 					<!-- Dummy_FX_Hilt for hilt -->
@@ -40,9 +94,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
 					<children>
 						<node id="Attachments">
@@ -52,43 +106,8 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.Balls.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.ClipScrews.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.T-Ribs.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="0b3cbd8c-7687-4278-a3cc-4c5bd673745c" />
+							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Button_Mesh.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Emitter_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -103,6 +122,103 @@
 				</node>
 
 				<!-- Luke's Hilt -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="ID" type="FixedString" value="41350095-c750-462f-8f54-7c200a04c19f" />
+					<attribute id="Name" type="LSString" value="TLN_LukeLightsaber_Hilt" />
+
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeHilt_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeHilt_Mesh.Dummy_TLN_Luke_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeHilt_Mesh.TLN_Luke_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Luke's Lightsaber RED -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="ID" type="FixedString" value="92ffb282-4412-4c99-b2b4-3c69a715e278" />
+					<attribute id="Name" type="LSString" value="TLN_LukeLightsaber_Red" />
+
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.Dummy_TLN_Luke_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="dbf5dd02-3fa8-4a20-833e-9fce8f93f6f9" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Luke's Lightsaber -->
 				<node id="Resource">
 					<!-- Bones: -->
 					<!-- Dummy_FX_Hilt for hilt -->
@@ -156,7 +272,7 @@
 					</children>
 				</node>
 
-				<!-- Vader's Hilt -->
+				<!-- Vader's Lightsaber -->
 				<node id="Resource">
 					<!-- Bones: -->
 					<!-- Dummy_FX_Hilt for hilt -->
@@ -182,9 +298,9 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_RedLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderLightsaber_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
 					<children>
 						<node id="Attachments">
@@ -194,50 +310,61 @@
 						<node id="Base" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.Balls.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.ClipScrews.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.T-Ribs.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Button_Mesh.0" />
-							<attribute id="Physics" type="FixedString" value="" />
-							<attribute id="Slot" type="FixedString" value="" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Emitter_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_VaderLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-							<attribute id="ObjectID" type="FixedString" value="TLN_RedLightsaber_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_VaderLightsaber_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- LEGO Lightsaber -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="fac77aec-16dd-4241-b65a-b8dc9bec262e" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_LEGOLightsaber" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LEGOLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LEGOLightsaber_Mesh.Dummy_TLN_Lightsaber_LEGO_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="dbf5dd02-3fa8-4a20-833e-9fce8f93f6f9" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="f1b656d2-3721-4437-b2d1-37ed9b73c2fe" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LEGOLightsaber_Mesh.TLN_Lightsaber_LEGO_Hilt_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>
@@ -301,7 +428,7 @@
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
+							<attribute id="ID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
 						</node>
 					</children>
 				</node>
@@ -333,16 +460,16 @@
 							<attribute id="Value" type="fvec3" value="0.03189603 0.61049560 0.03189603" />
 						</node>
 						<!-- GM -->
-						<node id="Texture2DParameters">
+						<!-- <node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
-						</node>
+						</node> -->
 						<!-- Silver BM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
+							<attribute id="ID" type="FixedString" value="0a9b465d-8b86-4e58-8219-01d9b3309f16" />
 						</node>
 					</children>
 				</node>
@@ -429,6 +556,47 @@
 					</children>
 				</node>
 
+				<!-- White Blade Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="3e47a90c-0235-4b02-827e-2e816bb60d2c" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_RED" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
+					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="20" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="1 1 1" />
+						</node>
+						<!-- GM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
+						</node>
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
+						</node>
+					</children>
+				</node>
+
 				<!-- Red Blade Material -->
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
@@ -461,11 +629,11 @@
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
 						</node>
-						<!-- Silver BM -->
+						<!-- BM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
 						</node>
 					</children>
 				</node>
@@ -473,25 +641,25 @@
 				<!-- Luke's Hilt Material -->
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
-					<attribute id="Name" type="LSString" value="TLN_LukeSaber_Silver" />
+					<attribute id="Name" type="LSString" value="TLN_LukeSaber" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
-						<!-- Silver BM -->
+						<!-- BM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 							<attribute id="ID" type="FixedString" value="0a9b465d-8b86-4e58-8219-01d9b3309f16" />
 						</node>
 
-						<!-- Silver NM -->
+						<!-- NM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 							<attribute id="ID" type="FixedString" value="5bc88e9c-18b9-4c3a-b9ee-710e1f85bb2e" />
 						</node>
 
-						<!-- Silver PM -->
+						<!-- PM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
@@ -500,62 +668,62 @@
 					</children>
 				</node>
 
-				<!-- Vader's Hilt - Silver Material -->
+				<!-- Vader's Hilt Material -->
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver" />
+					<attribute id="Name" type="LSString" value="TLN_MAT_VadersSaber" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
 					<children>
-						<!-- Silver BM -->
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="basecolor" />
-							<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
-						</node>
-
-						<!-- Silver NM -->
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="normalmap" />
-							<attribute id="ID" type="FixedString" value="eabb05de-195c-4c7a-99af-5fe09681690d" />
-						</node>
-
-						<!-- Silver PM -->
-						<node id="Texture2DParameters">
-							<attribute id="Enabled" type="bool" value="True" />
-							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
-							<attribute id="ID" type="FixedString" value="8d4f9878-6bc2-4d78-a80c-3a00d7727c73" />
-						</node>
-					</children>
-				</node>
-
-				<!-- Vader's Hilt - Black Material -->
-				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="2d78ce18-4545-4950-9ca3-dc0f7d590e4b" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black" />
-					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
-					<children>
-						<!-- Black BM -->
+						<!-- BM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="basecolor" />
 							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
 						</node>
-						
-						<!-- Black NM -->
+
+						<!-- NM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 							<attribute id="ID" type="FixedString" value="4e0adca5-e9bb-472c-9d16-ab9d3ca75e7b" />
 						</node>
 
-						<!-- Black BM -->
+						<!-- PM -->
 						<node id="Texture2DParameters">
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 							<attribute id="ID" type="FixedString" value="21ce7168-f183-4d0e-b2de-cec497c97d33" />
+						</node>
+					</children>
+				</node>
+
+				<!-- LEGO Hilt Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="f1b656d2-3721-4437-b2d1-37ed9b73c2fe" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaber" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_AlphaTest.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="5c2bfbab-14cf-4c73-8bba-4fd7bd0f0caa" />
+						</node>
+
+						<!-- NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ID" type="FixedString" value="c91be8e8-28bd-4419-9fc9-92396057693a" />
+						</node>
+
+						<!-- PM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+							<attribute id="ID" type="FixedString" value="2647af28-6b6a-4291-b7f7-a834d1c27d81" />
 						</node>
 					</children>
 				</node>
@@ -630,97 +798,97 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Black Base Color -->
+				<!-- Vader's Hilt - Base Color -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="0" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black_BM" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaberHilt_BM" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Black/VaderSaber_Black_BM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/VadersSaberHilt_BM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Black_BM" />
+					<attribute id="Template" type="FixedString" value="TLN_VaderSaberHilt_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Black Normal Map -->
+				<!-- Vader's Hilt - Normal Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="4e0adca5-e9bb-472c-9d16-ab9d3ca75e7b" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black_NM" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaberHilt_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Black/VaderSaber_Black_NM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/VadersSaberHilt_NM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Black_NM" />
+					<attribute id="Template" type="FixedString" value="TLN_VaderSaberHilt_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Black Physical Map -->
+				<!-- Vader's Hilt - Physical Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
 					<attribute id="ID" type="FixedString" value="21ce7168-f183-4d0e-b2de-cec497c97d33" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Black_PM" />
+					<attribute id="Name" type="LSString" value="TLN_VaderSaberHilt_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Black/VaderSaber_Black_PM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/VadersSaberHilt_PM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Black_PM" />
+					<attribute id="Template" type="FixedString" value="TLN_VaderSaberHilt_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Silver Base Color -->
+				<!-- LEGO Hilt - Base Color -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="0" />
 					<attribute id="Height" type="int32" value="1024" />
-					<attribute id="ID" type="FixedString" value="f5d285fc-1c45-4e74-8c70-4120acb655a3" />
+					<attribute id="ID" type="FixedString" value="5c2bfbab-14cf-4c73-8bba-4fd7bd0f0caa" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver_BM" />
+					<attribute id="Name" type="LSString" value="TLN_LEGOHilt_BM" />
 					<attribute id="SRGB" type="bool" value="True" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Silver/VaderSaber_Silver_BM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/LEGO/TLN_LEGOHilt_BM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Silver_BM" />
+					<attribute id="Template" type="FixedString" value="TLN_LEGOHilt_BM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Silver Normal Map -->
+				<!-- LEGO Hilt - Normal Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
-					<attribute id="ID" type="FixedString" value="eabb05de-195c-4c7a-99af-5fe09681690d" />
+					<attribute id="ID" type="FixedString" value="c91be8e8-28bd-4419-9fc9-92396057693a" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver_NM" />
+					<attribute id="Name" type="LSString" value="TLN_LEGOHilt_NM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Silver/VaderSaber_Silver_NM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/LEGO/TLN_LEGOHilt_NM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Silver_NM" />
+					<attribute id="Template" type="FixedString" value="TLN_LEGOHilt_NM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
 				</node>
 
-				<!-- Vader's Hilt - Silver Physical Map -->
+				<!-- LEGO Hilt - Physical Map -->
 				<node id="Resource">
 					<attribute id="Depth" type="int32" value="1" />
 					<attribute id="Height" type="int32" value="1024" />
-					<attribute id="ID" type="FixedString" value="8d4f9878-6bc2-4d78-a80c-3a00d7727c73" />
+					<attribute id="ID" type="FixedString" value="2647af28-6b6a-4291-b7f7-a834d1c27d81" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="TLN_VaderSaber_Silver_PM" />
+					<attribute id="Name" type="LSString" value="TLN_LEGOHilt_PM" />
 					<attribute id="SRGB" type="bool" value="False" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/Vader/Silver/VaderSaber_Silver_PM.dds" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/LEGO/TLN_LEGOHilt_PM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
-					<attribute id="Template" type="FixedString" value="TLN_VaderSaber_Silver_PM" />
+					<attribute id="Template" type="FixedString" value="TLN_LEGOHilt_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
@@ -766,6 +934,13 @@
 					<attribute id="ID" type="FixedString" value="dbf5dd02-3fa8-4a20-833e-9fce8f93f6f9" />
 					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_RED" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_RED.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+				</node>
+				<node id="Resource">
+					<attribute id="EffectName" type="FixedString" value="VFX_TLN_Lightsaber_Illumination_WHITE" />
+					<attribute id="ID" type="FixedString" value="a2728e07-eaa3-4dd2-a513-1652122dd9b0" />
+					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_WHITE" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_WHITE.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 				</node>
 			</children>
