@@ -23,42 +23,42 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="Icons_TLN_RedLightsaber" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Hilt_Luke" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Yellow" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Red" />
                     <attribute id="U1" type="float" value="0.0625" />
                     <attribute id="U2" type="float" value="0.09375" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Purple" />
                     <attribute id="U1" type="float" value="0.09375" />
                     <attribute id="U2" type="float" value="0.125" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Green" />
                     <attribute id="U1" type="float" value="0.125" />
                     <attribute id="U2" type="float" value="0.15625" />
                     <attribute id="V1" type="float" value="0.0" />
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Blue" />
                     <attribute id="U1" type="float" value="0.15625" />
                     <attribute id="U2" type="float" value="0.1875" />
                     <attribute id="V1" type="float" value="0.0" />
@@ -247,42 +247,42 @@
                     <attribute id="V2" type="float" value="0.03125" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Hilt_Vader" />
                     <attribute id="U1" type="float" value="0.0" />
                     <attribute id="U2" type="float" value="0.03125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Yellow" />
                     <attribute id="U1" type="float" value="0.03125" />
                     <attribute id="U2" type="float" value="0.0625" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Red" />
                     <attribute id="U1" type="float" value="0.0625" />
                     <attribute id="U2" type="float" value="0.09375" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Purple" />
                     <attribute id="U1" type="float" value="0.09375" />
                     <attribute id="U2" type="float" value="0.125" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Green" />
                     <attribute id="U1" type="float" value="0.125" />
                     <attribute id="U2" type="float" value="0.15625" />
                     <attribute id="V1" type="float" value="0.03125" />
                     <attribute id="V2" type="float" value="0.0625" />
                 </node>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="" />
+                    <attribute id="MapKey" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Blue" />
                     <attribute id="U1" type="float" value="0.15625" />
                     <attribute id="U2" type="float" value="0.1875" />
                     <attribute id="V1" type="float" value="0.03125" />

@@ -1,0 +1,13 @@
+new entry "TLN_Kyber_Crystal_GREEN"
+type "Object"
+data "Rarity" "Very Rare"
+using "OBJ_GenericLootItem"
+data "RootTemplate" "c181dbab-5605-47a2-aeb4-a18fcbe34111"
+data "ValueOverride" "69"
+
+new entry "TLN_Kyber_Crystal_RED"
+type "Object"
+data "Rarity" "Very Rare"
+using "OBJ_GenericLootItem"
+data "RootTemplate" "657de51e-ec0c-416e-8933-1f33c0e6c164"
+data "ValueOverride" "69"
