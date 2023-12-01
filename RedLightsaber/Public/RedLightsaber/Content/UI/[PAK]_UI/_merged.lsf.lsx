@@ -4,16 +4,140 @@
 	<region id="TextureBank">
 		<node id="TextureBank">
 			<children>
+				<!-- Luke Icons -->
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="93eeac9a-be53-447f-a34c-1923a6c2b4b3" />
 					<attribute id="Localized" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="Icons_TLN_RedLightsaber" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Hilt_Luke" />
 					<attribute id="SRGB" type="bool" value="True" />
 					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="Icons_Items" />
 					<attribute id="Type" type="int32" value="0" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855873" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="b0c62a20-f998-48c5-ae55-fea4afb4dba4" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Luke_Yellow" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="741b89db-e237-4b37-b4c3-16f95fdcfb5f" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Luke_Red" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="fe3ccc16-a914-4276-89e9-cc726e9bd13a" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Luke_Purple" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="343aa32b-927b-44ba-a9bc-1df05490ded6" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Luke_Green" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="a12bb9cb-94a1-4c29-a3e3-6e6da10cbf54" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Luke_Blue" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+
+				<!-- Vader Icons -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="7b5138ba-eb8f-436d-b1a2-1882867d217a" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Hilt_Vader" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="bd24e6a7-a8c5-4e34-b57e-b92a498f77f5" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Vader_Yellow" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="420b0cf2-83a1-492b-8aaf-22f9dc742df9" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Vader_Red" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="9a149c37-1a4a-42c0-908c-4e86cd685919" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Vader_Purple" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="6912c84f-da68-40e9-ba21-51a1e07ca455" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Vader_Green" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="a6a44aa1-0e3b-446a-9685-3d8e1fba32c1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_Icons_Lightsaber_Vader_Blue" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Public\RedLightsaber\Assets\Textures\Icons\TLN_RedLightsaber.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="Icons_Items" />
+					<attribute id="Type" type="int32" value="0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
 				</node>
 			</children>
 		</node>

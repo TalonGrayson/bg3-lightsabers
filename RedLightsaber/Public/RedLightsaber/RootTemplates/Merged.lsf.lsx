@@ -11,7 +11,7 @@
 					<attribute id="Description" type="TranslatedString" handle="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1" /> <!-- CHANGE THIS: 'handle' should be the description's 'contentuid' in the localisation file -->
 					<attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" /> <!-- CHANGE THIS: 'value' should be the UUID of the base item -->
 					<attribute id="Flag" type="int64" value="0" />
-					<attribute id="Icon" type="FixedString" value="Icons_TLN_RedLightsaber" /> <!-- CHANGE THIS: 'value' should be the name of the base item -->
+					<attribute id="Icon" type="FixedString" value="TLN_Icons_Hilt_Luke" /> <!-- CHANGE THIS: 'value' should be the name of the base item -->
 					<attribute id="IsInspector" type="bool" value="True" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="LevelOverride" type="int64" value="-1" />
@@ -63,6 +63,7 @@
 					<attribute id="Name" type="LSString" value="TLN_LukeLightsaber_Hilt" />
 					<attribute id="Stats" type="FixedString" value="TLN_LukeLightsaber_Hilt" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h208fafd3g3737g45adgab0ag37b1da1e866d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h172fcbf3ge401g452fg8b6fg8a2c006e00fe" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="41350095-c750-462f-8f54-7c200a04c19f" />
 					<children>
 						<node id="OnUsePeaceActions">
@@ -94,6 +95,7 @@
 					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber_Luke" />
 					<attribute id="DisplayName" type="TranslatedString" handle="hd5e78343g8aa1g4c24ga0d0g23727e20bd8a" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="d8fa9b09-0da8-4e7e-8a40-c9d44043fd5e" />
+					<attribute id="Icon" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Green" />
 				</node>
 				
 				<!-- Luke Skywalker's Lightsaber RED -->
@@ -109,6 +111,7 @@
 					<attribute id="DisplayName" type="TranslatedString" handle="h1fc199e5gd804g4fe1ga0c7g166a68de9dc1" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h75f7215cg0b91g4918g9843g49036369caa8" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="92ffb282-4412-4c99-b2b4-3c69a715e278" />
+					<attribute id="Icon" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Red" />
 				</node>
 
 				<!-- Darth Vader's Lightsaber -->
@@ -129,8 +132,8 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="c181dbab-5605-47a2-aeb4-a18fcbe34111" />
 					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_GREEN" />
-					<attribute id="DisplayName" type="TranslatedString" handle="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha9efedc0g117fg40dbg82ceg7485b210d78a" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h2e12dc28gba4cg44ffga957g7ef4999cffcf" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="93567163-3813-4070-abad-3146386b6210" />
 					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_Laculite_A" />
 					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_GREEN" />
@@ -196,8 +199,8 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="657de51e-ec0c-416e-8933-1f33c0e6c164" />
 					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_RED" />
-					<attribute id="DisplayName" type="TranslatedString" handle="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1" />
-					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb482667bgd7ddg45afg9678ge822d2373283" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0485106cgfde8g4f6dg9f80gfe13e02e3bc3" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
 					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_C" />
 					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_RED" />

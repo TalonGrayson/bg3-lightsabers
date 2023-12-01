@@ -2,18 +2,36 @@
 <contentList>
 	<content contentuid="hc69c0e62g2b7cg4e0cgb6bagd45658f2c0ac" version="1">Lightsaber</content>
 	<content contentuid="h628178aag8a6cg4cc1ga8eeg9a3c891abfed" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age.</content>
-	<content contentuid="h75f7215cg0b91g4918g9843g49036369caa8" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age. Wielding it feels like reality is fracturing into some kind of expanded universe. You have a bad feeling about it.</content>
 
+	<!-- Lightsabers -->
+	<content contentuid="h1fc199e5gd804g4fe1ga0c7g166a68de9dc1" version="1">Troubled Lightsaber</content>
+	<content contentuid="h75f7215cg0b91g4918g9843g49036369caa8" version="1">Not as clumsy or random as a crossbow; an elegant weapon for a more civilized age. Wielding it feels like reality is fracturing into some kind of expanded universe. You have a bad feeling about  it.</content>
+	
 	<content contentuid="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1">Darth Vader's Lightsaber</content>
 	<content contentuid="hd5e78343g8aa1g4c24ga0d0g23727e20bd8a" version="1">Luke Skywalker's Lightsaber</content>
+
+	<!-- Hilts -->
 	<content contentuid="h208fafd3g3737g45adgab0ag37b1da1e866d" version="1">Luke Skywalker's Lightsaber Hilt</content>
-	<content contentuid="h1fc199e5gd804g4fe1ga0c7g166a68de9dc1" version="1">Troubled Lightsaber</content>
+	<content contentuid="h172fcbf3ge401g452fg8b6fg8a2c006e00fe" version="1">A curious artefact, most likely construct a long time ago, in a realm far, far away. Despite not having a blade, you recognise it as a sword.</content>
 
-	<!-- KYBER LIGHT BOOSTS -->
-	<content contentuid="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1">Kyber Crystal (Green)</content>
-	<content contentuid="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1">Kyber Crystal (Red)</content>
-	<content contentuid="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1">The crystal resonates with you, as if bound to you through some mystical force. The weave, perhaps? It feels... different.</content>
+	<!-- KYBER CRYSTAL NAMES -->
+	<content contentuid="h018abe20g5a9cg42d5g894cgcfb7c0710d33" version="1">Guardian Crystal (Blue)</content>
+	<content contentuid="ha9efedc0g117fg40dbg82ceg7485b210d78a" version="1">Consular Crystal (Green)</content>
+	<content contentuid="h160007b0gd857g4fa5gb339g8861a60269de" version="1">Sentinel Crystal (Yellow)</content>
+	<content contentuid="hb482667bgd7ddg45afg9678ge822d2373283" version="1">Bleeding Crystal (Red)</content>
+	<content contentuid="h31c5676ag7f4ag4b43ga79eg0e6c8c8fc764" version="1">Corrupted Crystal (Purple)</content>
+	<content contentuid="h24851fdbge054g4baag84d8gf36e3189ebe0" version="1">Purified Crystal (White)</content>
 
+	<!-- KYBER CRYSTAL DESCRIPTIONS -->
+	<content contentuid="he4fa8eb6g4180g42bbg97f4g87980196cb9b" version="1">The crystal resonates with you, as if bound to you through some mystical force. The weave, perhaps? It feels... different.</content>
+	<content contentuid="h686a9717gdecag471bgaf92g15b7899b73c6" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your fighting skills, but not on its own.</content>
+	<content contentuid="h2e12dc28gba4cg44ffga957g7ef4999cffcf" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your persuasive skills, but not on its own.</content>
+	<content contentuid="hc4f52c43g99cdg4fc8g90dfgc7a517aaf48f" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your fighting and spellcasting skills, but not on its own.</content>
+	<content contentuid="h0485106cgfde8g4f6dg9f80gfe13e02e3bc3" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your intimidation skills, but not on its own.</content>
+	<content contentuid="hdbfe19acg4facg4ebegae6fg588e3a9f1080" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your spellcasting and intimidation skills, but not on its own.</content>
+	<content contentuid="h997efe49g7feag49bag9812g12b7a6313a91" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your healing skills, but not on its own.</content>
+
+	<!-- KYBER BOOSTS -->
 	<content contentuid="ha7047837g651cg4efeg8770g352717f98287" version="1">Saber Glow (Main Hand)</content>
 	<content contentuid="h76ad4894g571bg41fagab0fg48cd814c90ce" version="1">Saber Glow (Off Hand)</content>
 	<content contentuid="h7d3da766g1f94g472cg9bf6gcf2b66d59bf3" version="1">Kyber Glow (Main Hand)</content>
