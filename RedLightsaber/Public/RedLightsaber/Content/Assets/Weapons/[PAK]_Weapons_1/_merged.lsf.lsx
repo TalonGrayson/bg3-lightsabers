@@ -370,6 +370,98 @@
 						</node>
 					</children>
 				</node>
+
+				<!-- Kyber Crystal - GREEN -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="93567163-3813-4070-abad-3146386b6210" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Green" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.Dummy_LOOT_Kyber_Crystal.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="fddd9140-99bd-4c1e-9b30-30e34b3feb94" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="19766db8-7564-43fb-8910-68bf12e7d424" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Kyber Crystal - RED -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.Dummy_LOOT_Kyber_Crystal.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="dbf5dd02-3fa8-4a20-833e-9fce8f93f6f9" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="892f02b7-7d81-4398-8848-fddbaf4cb2c3" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
@@ -727,6 +819,96 @@
 						</node>
 					</children>
 				</node>
+				
+				<!-- Kyber Crystal Green Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="19766db8-7564-43fb-8910-68bf12e7d424" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Green" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="0.36 0.72 0.15" />
+						</node>
+						<!-- GM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ID" type="FixedString" value="e31a2f5c-ddb0-4762-ab76-abeaee3df6bf" />
+						</node>
+
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="3ead4fa3-8297-4c2c-98f6-1798d92f350e" />
+						</node>
+					</children>
+				</node>
+				
+				<!-- Kyber Crystal Red Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="892f02b7-7d81-4398-8848-fddbaf4cb2c3" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="1 0 0" />
+						</node>
+						<!-- GM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
+							<attribute id="ID" type="FixedString" value="e31a2f5c-ddb0-4762-ab76-abeaee3df6bf" />
+						</node>
+
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="072fb0bb-bd3e-4380-ba4b-fa815a4ec694" />
+						</node>
+
+						<!-- NM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="normalmap" />
+							<attribute id="ID" type="FixedString" value="a361316d-384b-4b25-95ff-fcfdf6dc9682" />
+						</node>
+
+						<!-- PM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
+							<attribute id="ID" type="FixedString" value="153d0a96-5c9d-4f95-93c9-2919ecb90e87" />
+						</node>
+					</children>
+				</node>
 			</children>
 		</node>
 	</region>
@@ -889,6 +1071,86 @@
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Humans/WPN_TLN_Lightsaber/LEGO/TLN_LEGOHilt_PM.dds" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Template" type="FixedString" value="TLN_LEGOHilt_PM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+
+				<!-- Kyber Crystal GREEN - Base Color -->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="0" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="3ead4fa3-8297-4c2c-98f6-1798d92f350e" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Green_BM" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/KyberCrystal_Green_BM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="TLN_KyberCrystal_Green_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+				</node>
+
+				<!-- Kyber Crystal RED - Base Color -->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="0" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="072fb0bb-bd3e-4380-ba4b-fa815a4ec694" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red_BM" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/KyberCrystal_Red_BM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="TLN_KyberCrystal_Red_BM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+
+				<!-- Kyber Crystal - Normal Map -->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="a361316d-384b-4b25-95ff-fcfdf6dc9682" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="KyberCrystal_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/KyberCrystal_NM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="KyberCrystal_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+
+				<!-- Kyber Crystal - Glow Map -->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="e31a2f5c-ddb0-4762-ab76-abeaee3df6bf" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="KyberCrystal_GM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/KyberCrystal_GM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="KyberCrystal_GM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />
+				</node>
+
+				<!-- Kyber Crystal - Physical Map -->
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="1024" />
+					<attribute id="ID" type="FixedString" value="153d0a96-5c9d-4f95-93c9-2919ecb90e87" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="KyberCrystal_PM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/KyberCrystal_PM.dds" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="KyberCrystal_PM" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855943" />

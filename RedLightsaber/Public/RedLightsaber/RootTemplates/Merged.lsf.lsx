@@ -129,18 +129,19 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="c181dbab-5605-47a2-aeb4-a18fcbe34111" />
 					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_GREEN" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="93567163-3813-4070-abad-3146386b6210" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_Laculite_A" />
+					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_GREEN" />
+
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
 					<attribute id="ReadinessFlags" type="uint32" value="128" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="VisualTemplate" type="FixedString" value="ab392201-5504-6184-17b4-4e5285d6e5a5" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="061fa8b2-ac23-2eae-3002-dd1d15a2f67f" />
-					<attribute id="DisplayName" type="TranslatedString" handle="he1e358eag3c44g4bb6g977fg6c7eb742e018" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_Laculite_A" />
-					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_GREEN" />
 					<attribute id="maxStackAmount" type="int32" value="100" />
-					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
 					<children>
 						<node id="Bounds">
 							<children>
@@ -195,18 +196,19 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="657de51e-ec0c-416e-8933-1f33c0e6c164" />
 					<attribute id="Name" type="LSString" value="TLN_Kyber_Crystal_RED" />
+					<attribute id="DisplayName" type="TranslatedString" handle="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_C" />
+					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_RED" />
+
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="ParentTemplateId" type="FixedString" value="93380b9c-cf4f-413d-99a7-7e2897cdb94e" />
 					<attribute id="ReadinessFlags" type="uint32" value="128" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="VisualTemplate" type="FixedString" value="ab392201-5504-6184-17b4-4e5285d6e5a5" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="061fa8b2-ac23-2eae-3002-dd1d15a2f67f" />
-					<attribute id="DisplayName" type="TranslatedString" handle="haa27ced1g0aedg4499gad29gdfb9404afb51" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_LOOT_Alchemy_Crystal_C" />
-					<attribute id="Stats" type="FixedString" value="TLN_Kyber_Crystal_RED" />
 					<attribute id="maxStackAmount" type="int32" value="100" />
-					<attribute id="Description" type="TranslatedString" handle="h3d32caadg09ccg478dgaa2ag99140df2e20d" version="1" />
 					<children>
 						<node id="Bounds">
 							<children>
