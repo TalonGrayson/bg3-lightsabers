@@ -24,7 +24,7 @@
 					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber" /> <!-- CHANGE THIS: 'value' should be the 'new entry' name from your item's .txt file -->
 					<attribute id="Tooltip" type="uint8" value="2" />
 					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="fac77aec-16dd-4241-b65a-b8dc9bec262e" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
+					<attribute id="VisualTemplate" type="FixedString" value="0cbb3528-9bec-4258-a4e8-dd2a4dbf20ee" /> <!-- CHANGE THIS: 'value' should be the UUID of the visual template -->
 					<attribute id="WalkThrough" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
 					<children>
@@ -112,6 +112,48 @@
 					<attribute id="Description" type="TranslatedString" handle="h75f7215cg0b91g4918g9843g49036369caa8" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="92ffb282-4412-4c99-b2b4-3c69a715e278" />
 					<attribute id="Icon" type="FixedString" value="TLN_Icons_Lightsaber_Luke_Red" />
+				</node>
+
+				<!-- TLN_Netherblade_Gortash -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="a7d0e3dd-e6b9-4ff3-8ceb-8596dce2ddc0" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Gortash" />
+					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Gortash" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6865856agca1dg453bgaffag8ac975234056" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="3b1004df-f08a-48ac-afb8-986a25a7a3ee" />
+				</node>
+
+				<!-- TLN_Netherblade_Ketheric -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="9d400960-cc83-43e1-899f-cd4590861b2d" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Ketheric" />
+					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Ketheric" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h91768089gfee9g43f6g85feg50d7c35c4610" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="73e2cf59-5b01-44e3-bd19-c7848774ac70" />
+				</node>
+
+				<!-- TLN_Netherblade_Orin -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="0a7680ca-15e4-441e-b21a-b5ee1770a190" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Orin" />
+					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Orin" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16886114g639bg45feg9b86ge4fa7daf68f3" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="eb5e45ac-0a66-4415-be0e-f72aa07d2f87" />
 				</node>
 
 				<!-- Darth Vader's Lightsaber -->

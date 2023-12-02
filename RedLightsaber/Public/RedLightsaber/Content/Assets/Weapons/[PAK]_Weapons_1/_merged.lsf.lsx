@@ -47,7 +47,7 @@
 					<children>
 						<node id="Attachments">
 							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
-							<attribute id="UUID" type="FixedString" value="a2728e07-eaa3-4dd2-a513-1652122dd9b0" />
+							<attribute id="UUID" type="FixedString" value="391ff37e-dcfb-45c4-805d-ff60419119d8" />
 						</node>
 						<node id="Base" />
 						<node id="Objects">
@@ -325,6 +325,150 @@
 					</children>
 				</node>
 
+				<!-- Gortash's Netherblade -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="3b1004df-f08a-48ac-afb8-986a25a7a3ee" />
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Gortash" />
+
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.Dummy_TLN_Luke_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="62b34044-7704-4d5a-a693-43ea23e1a33a" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="5f0f7590-5c8f-4288-88b6-b45ce3633fa1" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Kethric's Netherblade -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="73e2cf59-5b01-44e3-bd19-c7848774ac70" />
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Kethric" />
+
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.Dummy_TLN_Luke_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="a74f0d8a-eb70-4027-b7c7-49751b0e026c" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b9f504e6-19fc-43a7-8584-f8693378d900" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Orin's Netherblade -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="eb5e45ac-0a66-4415-be0e-f72aa07d2f87" />
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Orin" />
+
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_LukeLightsaber_Mesh.Dummy_TLN_Luke_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX_Blade" />
+							<attribute id="UUID" type="FixedString" value="391ff37e-dcfb-45c4-805d-ff60419119d8" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="92b03a79-a44c-4384-926d-551ad1159c68" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="b5cfbbe8-80d8-486a-841f-4b604717c027" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_LukeLightsaber_Mesh.TLN_Luke_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
 				<!-- LEGO Lightsaber -->
 				<node id="Resource">
 					<!-- Bones: -->
@@ -410,6 +554,132 @@
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="19766db8-7564-43fb-8910-68bf12e7d424" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Kyber Crystal - GORTASH -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.Dummy_LOOT_Kyber_Crystal.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="62b34044-7704-4d5a-a693-43ea23e1a33a" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="892f02b7-7d81-4398-8848-fddbaf4cb2c3" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Kyber Crystal - KETHERIC -->
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.Dummy_LOOT_Kyber_Crystal.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="a74f0d8a-eb70-4027-b7c7-4975" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="892f02b7-7d81-4398-8848-fddbaf4cb2c3" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Kyber Crystal - ORIN -->
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="9ef6e2b9-6eb4-4feb-8205-4171bdf047d0" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_KyberCrystal_Red" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Loot/Kyber_Crystals/Resources/TLN_KyberCrystal.Dummy_LOOT_Kyber_Crystal.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Attachments">
+							<attribute id="Name" type="FixedString" value="Dummy_FX" />
+							<attribute id="UUID" type="FixedString" value="a74f0d8a-eb70-4027-b7c7-4975" />
+						</node>
+						<node id="Base" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="892f02b7-7d81-4398-8848-fddbaf4cb2c3" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_KyberCrystal.LOOT_Kyber_Crystal_Mesh.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
@@ -679,6 +949,111 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ParameterName" type="FixedString" value="Glowmap" />
 							<attribute id="ID" type="FixedString" value="abccbbfa-a080-4b49-b888-cc9652caecff" />
+						</node>
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Gortash Blade Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="5f0f7590-5c8f-4288-88b6-b45ce3633fa1" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Blade_GORTASH" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
+					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028797018963968" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="20" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="0.4 0 1" />
+						</node>
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Ketheric Blade Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="b9f504e6-19fc-43a7-8584-f8693378d900" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Blade_KETHERIC" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
+					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="20" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="1 0 1" />
+						</node>
+						<!-- BM -->
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="basecolor" />
+							<attribute id="ID" type="FixedString" value="7527a822-c8a8-4a9d-b777-a135c3d24e1d" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Orin Blade Material -->
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="92b03a79-a44c-4384-926d-551ad1159c68" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Blade_ORIN" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Base/Base_GM_Pulse_AlphaBlend.lsf" />
+					<attribute id="IsLuminanceEmissive" type="bool" value="True" />
+					<attribute id="CanReceiveDeferredDecals" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="36028805608898564" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="PulseSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="MaxGlow" />
+							<attribute id="Value" type="float" value="20" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="GlowColour" />
+							<attribute id="Value" type="fvec3" value="0.8 0 0" />
 						</node>
 						<!-- BM -->
 						<node id="Texture2DParameters">
@@ -1203,6 +1578,27 @@
 					<attribute id="ID" type="FixedString" value="a2728e07-eaa3-4dd2-a513-1652122dd9b0" />
 					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_WHITE" />
 					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_WHITE.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+				</node>
+				<node id="Resource">
+					<attribute id="EffectName" type="FixedString" value="VFX_TLN_Lightsaber_Illumination_GORTASH" />
+					<attribute id="ID" type="FixedString" value="62b34044-7704-4d5a-a693-43ea23e1a33a" />
+					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_GORTASH" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_GORTASH.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+				</node>
+				<node id="Resource">
+					<attribute id="EffectName" type="FixedString" value="VFX_TLN_Lightsaber_Illumination_KETHERIC" />
+					<attribute id="ID" type="FixedString" value="a74f0d8a-eb70-4027-b7c7-49751b0e026c" />
+					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_KETHERIC" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_KETHERIC.lsfx" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
+				</node>
+				<node id="Resource">
+					<attribute id="EffectName" type="FixedString" value="VFX_TLN_Lightsaber_Illumination_ORIN" />
+					<attribute id="ID" type="FixedString" value="391ff37e-dcfb-45c4-805d-ff60419119d8" />
+					<attribute id="Name" type="LSString" value="VFX_TLN_Lightsaber_Illumination_ORIN" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Effects/Effects_Banks/LightSources/VFX_TLN_Lightsaber_Illumination_ORIN.lsfx" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115198813274212" />
 				</node>
 			</children>
