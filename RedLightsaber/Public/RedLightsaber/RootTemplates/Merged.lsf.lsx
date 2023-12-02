@@ -125,6 +125,7 @@
 					<attribute id="Name" type="LSString" value="TLN_Netherblade_Gortash" />
 					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Gortash" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h6865856agca1dg453bgaffag8ac975234056" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hcbcdb85bgc8d6g4df9g9571g02fd9b4531d5" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="3b1004df-f08a-48ac-afb8-986a25a7a3ee" />
 				</node>
 
@@ -139,6 +140,7 @@
 					<attribute id="Name" type="LSString" value="TLN_Netherblade_Ketheric" />
 					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Ketheric" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h91768089gfee9g43f6g85feg50d7c35c4610" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="he69226d8gdcb6g47c2gb62fg1e9dee8b8868" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="73e2cf59-5b01-44e3-bd19-c7848774ac70" />
 				</node>
 
@@ -153,6 +155,7 @@
 					<attribute id="Name" type="LSString" value="TLN_Netherblade_Orin" />
 					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Orin" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h16886114g639bg45feg9b86ge4fa7daf68f3" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hfa1cac5fg3b95g4491gab08g2e51c9dcd229" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="eb5e45ac-0a66-4415-be0e-f72aa07d2f87" />
 				</node>
 
