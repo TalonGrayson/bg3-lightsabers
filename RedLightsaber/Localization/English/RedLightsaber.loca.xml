@@ -10,9 +10,22 @@
 	<content contentuid="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1">Darth Vader's Lightsaber</content>
 	<content contentuid="hd5e78343g8aa1g4c24ga0d0g23727e20bd8a" version="1">Luke Skywalker's Lightsaber</content>
 
+	<!-- Netherblades -->
+	<content contentuid="h6865856agca1dg453bgaffag8ac975234056" version="1">Bane's Netherblade</content>
+	<content contentuid="hcbcdb85bgc8d6g4df9g9571g02fd9b4531d5" version="1">After you inserted a shard of Gortash's Netherstone into its hilt, Bane's Netherblade filled you with dark powers, rivalling those of the dead god.</content>
+
+	<content contentuid="h91768089gfee9g43f6g85feg50d7c35c4610" version="1">Myrkul's Netherblade</content>
+	<content contentuid="he69226d8gdcb6g47c2gb62fg1e9dee8b8868" version="1">After you inserted a shard of Ketheric's Netherstone into its hilt, Myrkul's's Netherblade filled you with necrotic powers, rivalling those of the dead god.</content>
+
+	<content contentuid="h16886114g639bg45feg9b86ge4fa7daf68f3" version="1">Bhaal's Netherblade</content>
+	<content contentuid="hfa1cac5fg3b95g4491gab08g2e51c9dcd229" version="1">After you inserted a shard of Orin's Netherstone into its hilt, Bhaal's Netherblade filled you with murderous powers, rivalling those of the dead god.</content>
+
 	<!-- Hilts -->
 	<content contentuid="h208fafd3g3737g45adgab0ag37b1da1e866d" version="1">Luke Skywalker's Lightsaber Hilt</content>
-	<content contentuid="h172fcbf3ge401g452fg8b6fg8a2c006e00fe" version="1">A curious artefact, most likely construct a long time ago, in a realm far, far away. Despite not having a blade, you recognise it as a sword.</content>
+	<content contentuid="h172fcbf3ge401g452fg8b6fg8a2c006e00fe" version="1">A curious artefact, most likely constructed a long time ago, in a realm far, far away. Despite not having a blade, you recognise it as the hilt of a sword.</content>
+	
+	<content contentuid="h76ca577ag6e65g47ecgaa0dg3a193952103c" version="1">Netherblade Hilt</content>
+	<content contentuid="h5bcf7023g2150g43afga408g0cee45c3bb57" version="1">A curious artefact, most likely constructed a long time ago, in a realm far, far away. Despite not having a blade, you recognise it as the hilt of a sword.</content>
 
 	<!-- KYBER CRYSTAL NAMES -->
 	<content contentuid="h018abe20g5a9cg42d5g894cgcfb7c0710d33" version="1">Guardian Crystal (Blue)</content>
@@ -31,19 +44,22 @@
 	<content contentuid="hdbfe19acg4facg4ebegae6fg588e3a9f1080" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your spellcasting and intimidation skills, but not on its own.</content>
 	<content contentuid="h997efe49g7feag49bag9812g12b7a6313a91" version="1">The crystal resonates with you, as if bound to you through some mystical force. You sense that it could improve your healing skills, but not on its own.</content>
 
-	<!-- KYBER BOOSTS -->
-	<content contentuid="ha7047837g651cg4efeg8770g352717f98287" version="1">Saber Glow (Main Hand)</content>
-	<content contentuid="h76ad4894g571bg41fagab0fg48cd814c90ce" version="1">Saber Glow (Off Hand)</content>
-	<content contentuid="h7d3da766g1f94g472cg9bf6gcf2b66d59bf3" version="1">Kyber Glow (Main Hand)</content>
-	<content contentuid="hd6a4c7d1gf4ecg4b42g8359g5686af140555" version="1">Kyber Glow (Off Hand)</content>
+	<!-- PASSIVES -->
+	<content contentuid="hb626f680gcff6g4402g9f43g6d4c9773f771" version="1">Saber Deflection</content>
+	<content contentuid="h68ae7d3cga7e4g488ag83dbg5872bab2950d" version="1">Your training and connection with the force have gifted you with the reaction speeds needed to deflect projectiles, even with the blast shield down.</content>
+	
+	<content contentuid="h3477e2fagb2b3g4e55gb65cg84b4ad2dbfab" version="1">Saber Reflection</content>
+	<content contentuid="h42c20377gdbefg4d43g8233g41dc56cf78ef" version="1">Your training and connection with the force have gifted you with the reaction speeds needed to intercept projectiles and send them back the way they came.</content>
+	
+	<content contentuid="h706d0498ge8b9g40a5g9ec4gef9391f6dc6f" version="1">Inspire Obedience</content>
+	<content contentuid="h828bd5e1g3a0dg4297ga269gf66cd57b1af7" version="1">By attacking an ally, you strike fear into the hearts of your enemies, giving them disadvantage on attack rolls for 2 turns. This also inspires obedience in your other allies, giving them advantage on attack rolls for 2 turns. The attacked ally will be knocked prone for 3 turns, and on succeeding a wisdom check, will seek revenge (with advantage on attack rolls, for 3 turns) when they get back up.</content>
 
-
-	<content contentuid="h3477e2fagb2b3g4e55gb65cg84b4ad2dbfab" version="1">Saber Deflection</content>
-	<content contentuid="h42c20377gdbefg4d43g8233g41dc56cf78ef" version="1">Your training and connection with the force have gifted you with the reaction speeds needed to deflect projectiles, even with the blast shield down.</content>
-
-	<content contentuid="h83ea3d1bg0100g409egbf70ge97a98835799" version="1">Kyber Glow</content>
+	<content contentuid="hfc2fcae1g2557g4b7cg85ecgab4fb8120f6e" version="1">Lightsaber Glow</content>
 	<content contentuid="h5c4690cdgddacg425cg8121ga9752f7a255d" version="1">The crystal in the hilt of this saber causes it to emit a glow in a radius of 1m.</content>
 	<content contentuid="h5fbca840g8ad4g41a9g84dbg808d4c3cdc9e" version="1">Sheathe your blade if you want to lurk in the shadows.</content>
+
+	<content contentuid="h384bee6dg7777g4888gbdb1g1b9d8d5006b6" version="1">Aspect of Vader</content>
+	<content contentuid="hc380db20g042fg43e1gb8e1g9f9d55b53919" version="1">All you are surrounded by is fear. And dead men.</content>
 
 	<content contentuid="h06cf891fgc534g4eeag9abegb08a7548e91d" version="1">Peace is a lie. There is only passion.</content>
 	<content contentuid="haeed27ffg8abfg4f25ga617g1d7c01eb70eb" version="1">Through passion, I gain strength.</content>
