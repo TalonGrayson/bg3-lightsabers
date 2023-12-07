@@ -23,3 +23,9 @@ object category "I_TLN_Netherblade_Ketheric",1,0,0,0,0,0,0,0
 CanMerge 1
 new subtable "1,1"
 object category "I_TLN_Netherblade_Orin",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_S_COL_CrownController_Ketheric",1,0,0,0,0,0,0,0
+CanMerge 1
+new subtable "1,1"
+object category "I_TLN_Netherblade_Hilt",1,0,0,0,0,0,0,0

@@ -52,6 +52,68 @@
 					</children>
 				</node>
 
+				<!-- Netherblade Gortash -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="f43240d3-326d-4144-9a5b-1e0b98cf5b6c" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Gortash" />
+					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Gortash" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h6865856agca1dg453bgaffag8ac975234056" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hcbcdb85bgc8d6g4df9g9571g02fd9b4531d5" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="708f4da9-ac44-4bd2-a8c0-5a36f6bbe87b" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Netherblade Hilt -->
+				<node id="GameObjects">
+					<!-- Required -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="MapKey" type="FixedString" value="b003b597-fc68-4c61-aea8-046c457929aa" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e92d8cb6-113d-4b58-96df-cdb69d599e29" />
+
+					<!-- Overrides -->
+					<attribute id="Name" type="LSString" value="TLN_Netherblade_Hilt" />
+					<attribute id="Stats" type="FixedString" value="TLN_Netherblade_Hilt" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h76ca577ag6e65g47ecgaa0dg3a193952103c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h5bcf7023g2150g43afga408g0cee45c3bb57" version="1" />
+					<attribute id="VisualTemplate" type="FixedString" value="807ff748-4fb6-461d-961b-1b0d449ce16a" />
+					<children>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="CombineSlots" type="int8" value="1" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
 				<!-- Luke Skywalker's Lightsaber Hilt -->
 				<node id="GameObjects">
 					<!-- Required -->
