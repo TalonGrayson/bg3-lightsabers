@@ -272,6 +272,47 @@
 					</children>
 				</node>
 
+				<!-- Vader's Hilt -->
+				<node id="Resource">
+					<!-- Bones: -->
+					<!-- Dummy_FX_Hilt for hilt -->
+					<!-- Dummy_FX_Emitter for emitter -->
+					<!-- Dummy_FX_Blade for mid-blade -->
+					<!-- Dummy_FX_BladeTip for blade tip -->
+					<!-- Dummy_FX_Pommel for pommel -->
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="0.1314379 0.04361478 0.3304681" />
+					<attribute id="BoundsMin" type="fvec3" value="-0.1314379 -0.0107545 -1.158125" />
+					<attribute id="Center" type="fvec3" value="0 0.001228543 -0.4141087" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="ac0c1e90-bf9a-4b88-9a6b-12baaffe5aef" />
+					<attribute id="Initialized" type="bool" value="True" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="MaterialType" type="uint8" value="4" />
+					<attribute id="Name" type="LSString" value="TLN_Lightsaber_Vader_Hilt" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="Radius" type="float" value="1.01437" />
+					<attribute id="SkeletonResource" type="FixedString" value="" />
+					<attribute id="SkeletonSlot" type="FixedString" value="" />
+					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderHilt_Mesh.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/Shared/Assets/Weapons/Resources/TLN_VaderHilt_Mesh.Dummy_TLN_Vader_Lightsaber_Hilt.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855932" />
+					<children>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="dca6962d-f8e6-44eb-8b86-b610f206edf5" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_VaderHilt_Mesh.TLN_Vader_Lightsaber_Hilt_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+					</children>
+				</node>
+
 				<!-- Vader's Lightsaber -->
 				<node id="Resource">
 					<!-- Bones: -->
@@ -312,6 +353,13 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
 							<attribute id="ObjectID" type="FixedString" value="TLN_VaderLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh.0" />
+							<attribute id="Physics" type="FixedString" value="" />
+							<attribute id="Slot" type="FixedString" value="" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="1" />
+							<attribute id="MaterialID" type="FixedString" value="452c9fdc-a532-4c28-8989-37b470ad0ac0" />
+							<attribute id="ObjectID" type="FixedString" value="TLN_VaderLightsaber_Mesh.TLN_Vader_Lightsaber_Blade_Mesh_LOD1.0" />
 							<attribute id="Physics" type="FixedString" value="" />
 							<attribute id="Slot" type="FixedString" value="" />
 						</node>

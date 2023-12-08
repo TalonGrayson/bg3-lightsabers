@@ -233,6 +233,7 @@
 					<attribute id="Stats" type="FixedString" value="TLN_Lightsaber_Vader" />
 					<attribute id="DisplayName" type="TranslatedString" handle="h4655a366g8b6fg49f7g875dgad9670eb0c4e" version="1" />
 					<attribute id="VisualTemplate" type="FixedString" value="6867c7b1-5423-44dd-a65f-6be38143d97b" />
+					<attribute id="Icon" type="FixedString" value="TLN_Icons_Lightsaber_Vader_Red" />
 				</node>
 
 				<!-- Green Kyber Crystal -->
